@@ -1,4 +1,4 @@
-package gc.eleg.daily.tempfilecsv.repository;
+package me.teenageorge.daily.tempfilecsv.repository;
 
 public class CsvTempFileRepository implements FileRepository {
 

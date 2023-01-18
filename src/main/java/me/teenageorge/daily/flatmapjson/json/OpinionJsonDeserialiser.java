@@ -1,8 +1,8 @@
-package gc.eleg.daily.flatmapjson.json;
+package me.teenageorge.daily.flatmapjson.json;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import gc.eleg.daily.flatmapjson.dto.OpinionDto;
+import me.teenageorge.daily.flatmapjson.dto.OpinionDto;
 import lombok.SneakyThrows;
 
 import java.io.IOException;

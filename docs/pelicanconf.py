@@ -1,11 +1,11 @@
 from datetime import datetime
 
-AUTHOR = 'gcelegans'
-SITENAME = 'Ramblings'
+AUTHOR = 'teenamgeorge'
+SITENAME = 'Articles on Java and Kotlin'
 SITEURL = ''
-SITETITLE = 'Ramblings'
-SITEDESCRIPTION = 'Rambling about programming problems encountered at work as a Java/Kotlin developer.'
-SITELOGO = SITEURL + 'images/gceleg.jpg'
+SITETITLE = 'Articles on Java and Kotlin'
+SITEDESCRIPTION = 'Record of programming problems encountered at work as a Java/Kotlin developer.'
+SITELOGO = SITEURL + 'images/teenamgeorge.jpg'
 FAVICON = 'images/favicon.ico'
 
 BROWSER_COLOR = '#333333'
@@ -31,7 +31,7 @@ USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 HOME_HIDE_TAGS = True
 
-GITHUB_CORNER_URL = "https://github.com/gceleg/ramblings"
+GITHUB_CORNER_URL = "https://github.com/teenageorge"
 
 DATE_FORMATS = {
     "en": "%B %d, %Y",

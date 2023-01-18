@@ -1,8 +1,8 @@
-package gc.eleg.daily.tempfilecsv.client;
+package me.teenageorge.daily.tempfilecsv.client;
 
-import gc.eleg.daily.tempfilecsv.repository.CsvTempFileRepository;
-import gc.eleg.daily.tempfilecsv.repository.FileRepository;
-import gc.eleg.daily.tempfilecsv.usecase.CsvTempFileUsecase;
+import me.teenageorge.daily.tempfilecsv.repository.CsvTempFileRepository;
+import me.teenageorge.daily.tempfilecsv.repository.FileRepository;
+import me.teenageorge.daily.tempfilecsv.usecase.CsvTempFileUsecase;
 
 public class TempFileWithoutFile {
     private final FileRepository fileRepository = new CsvTempFileRepository();

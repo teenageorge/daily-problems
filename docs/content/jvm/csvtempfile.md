@@ -1,7 +1,7 @@
 title: Return a temp file without creating one on disk
 date: 2022-12-27 10:00
 category: Daily-Java
-author: gcelegans
+author: teenamgeorge
 
 #### Context of the problem:
 Last problem (flattening map of <String, CustomType>) was about preparing the data for creating the CSV file.
@@ -17,7 +17,7 @@ So the DB table will have a primary key, a timestamp column and a `CLOB` column.
 This problem is solved in two similar ways: one using `org.springframework.core.io.ByteArrayResource` and the other using `org.springframework.core.io.FileSystemResource`.
 
 ##### Solution 1: Using `org.springframework.core.io.ByteArrayResource`
-`gc.eleg.daily.tempfilecsv.usecase.CsvTempFileUsecase.createByteArrayResource()`
+`usecase.tempfilecsv.me.teenageorge.daily.CsvTempFileUsecase.createByteArrayResource()`
 
 ``` java
 public ByteArrayResource createByteArrayResource() {
@@ -30,7 +30,7 @@ public ByteArrayResource createByteArrayResource() {
 ...end-code-block
 ##### Solution 2: Using `org.springframework.core.io.FileSystemResource` with an in-memory file system
 
-`gc.eleg.daily.tempfilecsv.usecase.CsvTempFileUsecase.createFileSystemResource()`
+`usecase.tempfilecsv.me.teenageorge.daily.CsvTempFileUsecase.createFileSystemResource()`
 ``` java
 @SneakyThrows(IOException.class)
     public FileSystemResource createFileSystemResource() {
@@ -52,4 +52,4 @@ public ByteArrayResource createByteArrayResource() {
 #### Conclusion:
 Solution 1 is simpler and more straightforward. It's also more efficient, as it doesn't require creating a file system in memory.
 
-#### Source code: [ramblings/tempfilecsv](https://github.com/gceleg/ramblings/tree/main/daily-problems/src/main/java/gc/eleg/daily/tempfilecsv)
+#### Source code: [daily-problems/tempfilecsv](https://github.com/teenageorge/daily-problems/tree/main/src/main/java/me/teenageorge/daily/tempfilecsv)

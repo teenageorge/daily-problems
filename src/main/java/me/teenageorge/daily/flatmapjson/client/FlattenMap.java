@@ -1,10 +1,10 @@
-package gc.eleg.daily.flatmapjson.client;
+package me.teenageorge.daily.flatmapjson.client;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import gc.eleg.daily.flatmapjson.domain.Opinion;
-import gc.eleg.daily.flatmapjson.domain.Opinions;
-import gc.eleg.daily.flatmapjson.exception.OpinionException;
-import gc.eleg.daily.flatmapjson.json.OpinionJsonDeserialiser;
+import me.teenageorge.daily.flatmapjson.domain.Opinion;
+import me.teenageorge.daily.flatmapjson.domain.Opinions;
+import me.teenageorge.daily.flatmapjson.exception.OpinionException;
+import me.teenageorge.daily.flatmapjson.json.OpinionJsonDeserialiser;
 
 import java.util.Map;
 

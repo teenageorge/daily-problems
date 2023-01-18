@@ -1,4 +1,4 @@
-package gc.eleg.daily.flatmapjson.exception;
+package me.teenageorge.daily.flatmapjson.exception;
 
 public class OpinionException extends RuntimeException {
 

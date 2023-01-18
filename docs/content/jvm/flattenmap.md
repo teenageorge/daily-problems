@@ -1,7 +1,7 @@
 title: Flatten nested map with custom type as values
 date: 2022-12-26 10:00
 category: Daily-Java
-author: gcelegans
+author: teenamgeorge
 
 #### Context of the problem:
 
@@ -24,7 +24,7 @@ Outer keys are integer values represented as strings.
 The inner keys are languages IDs (`en`, `fr`, `de` etc.). Some values may be missing, but each inner map entry will have all three keys.
 The outer map size can be any size from 100 to 100,000.
 
-Here is the method from `gc.eleg.daily.flatmapjson.domain.Opinions` class that does this:
+Here is the method from `domain.flatmapjson.me.teenageorge.daily.Opinions` class that does this:
 `LinkedHashMap` is used to preserve the insertion order of the keys. `java.parallelStream` is not used because the order is important.
 ``` java
 public Map<String, String> getLocalisedOpinions() {
@@ -81,4 +81,4 @@ Expected output:
 }
 ````
 
-Source code: [ramblings/flatmap](https://github.com/gceleg/ramblings/tree/main/daily-problems/src/main/java/gc/eleg/daily/flatmapjson)
+Source code: [daily-problems/flatmap](https://github.com/teenageorge/daily-problems/tree/main/src/main/java/me/teenageorge/daily/flatmapjson)

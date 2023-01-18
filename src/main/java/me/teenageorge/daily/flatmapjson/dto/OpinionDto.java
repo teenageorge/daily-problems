@@ -1,7 +1,7 @@
-package gc.eleg.daily.flatmapjson.dto;
+package me.teenageorge.daily.flatmapjson.dto;
 
 import com.fasterxml.jackson.annotation.JsonAnySetter;
-import gc.eleg.daily.flatmapjson.domain.Opinion;
+import me.teenageorge.daily.flatmapjson.domain.Opinion;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

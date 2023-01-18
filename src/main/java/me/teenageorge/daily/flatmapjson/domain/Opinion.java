@@ -1,4 +1,4 @@
-package gc.eleg.daily.flatmapjson.domain;
+package me.teenageorge.daily.flatmapjson.domain;
 
 import lombok.Data;
 import lombok.ToString;

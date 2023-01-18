@@ -1,6 +1,6 @@
-package gc.eleg.daily.tempfilecsv.usecase;
+package me.teenageorge.daily.tempfilecsv.usecase;
 
-import gc.eleg.daily.tempfilecsv.repository.FileRepository;
+import me.teenageorge.daily.tempfilecsv.repository.FileRepository;
 import lombok.SneakyThrows;
 import org.springframework.core.io.ByteArrayResource;
 import org.springframework.core.io.FileSystemResource;

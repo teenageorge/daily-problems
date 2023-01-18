@@ -5,7 +5,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version "7.0.0"
 }
 
-group = "gc.eleg"
+group = "me.teenageorge"
 version = "1.0-SNAPSHOT"
 
 repositories {
