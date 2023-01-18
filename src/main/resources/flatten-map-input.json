@@ -1,0 +1,20 @@
+{
+  "1":
+  {
+    "en": "good",
+    "fr": "bien",
+    "de": ""
+  },
+  "2":
+  {
+    "en": "bad",
+    "fr": "mal",
+    "de": "Schlecht"
+  },
+  "3":
+  {
+    "en": "",
+    "fr": "mal",
+    "de": "Schlecht"
+  }
+}
